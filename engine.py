@@ -7,6 +7,7 @@ from stream import Stream
 
 
 class Engine:
+    
     def __init__(self) -> None:
         self.frames = []
         self.driver = AudioDriver()

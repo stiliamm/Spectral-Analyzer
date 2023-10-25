@@ -1,9 +1,9 @@
 import pyaudio
-
 from audio_driver import AudioDriver
 
 
 class Stream(AudioDriver):
+    
     def __init__(self):
         super().__init__()
 

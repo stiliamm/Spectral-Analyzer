@@ -6,6 +6,7 @@ plt.style.use('dark_background')
 
 
 class Plotter:
+    
     def __init__(self):
         stream = Stream()
         self.chunk = stream.chunk

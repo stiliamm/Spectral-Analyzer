@@ -2,6 +2,7 @@ import pyaudio
 
 
 class AudioDriver:
+    
     def __init__(self):
         self._chunk = 2048
         self._format = pyaudio.paInt16
